@@ -63,20 +63,19 @@ Clone this repository:
 git clone https://github.com/your-username/alphabet-recognition.git
 cd alphabet-recognition
 
+First Install the dataset from Kaggle using the below link:
+https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format
 
 Install dependencies:
-
 pip install numpy pandas tensorflow matplotlib
 
 
-Run training script:
-
-python train_model.py
-
-
 Test with an image:
+provide the image path to the model for evaluating its correctness
 
-python predict.py path_to_image.png
+
+
+
 
 
 
